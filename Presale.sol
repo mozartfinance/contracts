@@ -732,10 +732,10 @@ contract PresaleBEP20 is Ownable {
         Piano _token
     ) public {
         token = _token;
-        presale = 0xF5ad61D358B893987F68bFae8DD24feeBBd90639;
+        presale = 0x43a94752821eb2bFC6A3a7cDc588561e952b0A86;
 
         presaleStartTimestamp = now;
-        presaleEndTimestamp = now.add(5 days + 15 hours + 30 minutes);
+        presaleEndTimestamp = now.add(5 days + 1 hours + 30 minutes);
     }
 
     receive() payable external {
